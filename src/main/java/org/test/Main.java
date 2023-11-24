@@ -128,6 +128,7 @@ public class Main {
                     writer.newLine();
                 }
                 writer.newLine();
+                ++i;
             }
             System.out.println("Data has had Successfully written to file  " + filePath);
         } catch (IOException e) {
